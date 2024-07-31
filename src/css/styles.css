@@ -1,0 +1,47 @@
+main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../assets/background.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: none;
+}
+
+.home-page {
+    width: 900px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.home-page h1 {
+    font-size: 74px;
+    color: #fff;
+}
+
+.home-page p {
+    font-size: 24px;
+    color: #fff;
+    margin: 30px 0 30px;
+}
+
+.button-query, .button-services {
+    width: 170px;
+    height: 40px;
+    background: #DEC7A6;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    margin: 0 30px;
+}
+
+.button-services {
+    background-color: #000;
+    border: 2px solid #fff;
+    color: #fff;
+}
