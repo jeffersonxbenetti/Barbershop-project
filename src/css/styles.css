@@ -1,35 +1,61 @@
 main {
-    width: 100vw;
-    height: 100vh;
+    max-width: 100vw;
+    height: 110vh;
     background-image: url("../assets/background.png");
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 nav {
-    display: none;
+    width: 90%;
+    height: 200px;
+    background: #fff;
+    position: absolute;
+    top: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
 }
 
 .home-page {
-    width: 900px;
+    width: 800px;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .home-page h1 {
-    font-size: 74px;
+    font-size: 70px;
     color: #fff;
 }
 
 .home-page p {
-    font-size: 24px;
+    letter-spacing: 0.7px;
+    font-size: 20px;
     color: #fff;
     margin: 30px 0 30px;
 }
 
-.button-query, .button-services {
+.button-query,
+.button-services {
     width: 170px;
     height: 40px;
     background: #DEC7A6;
@@ -38,10 +64,29 @@ nav {
     border-radius: 5px;
     border: none;
     margin: 0 30px;
+    transition: 600ms ease-in-out;
+}
+
+.button-query:hover {
+    color: #fff;
+    background: #000;
+    border: 2px solid #fff;
 }
 
 .button-services {
     background-color: #000;
     border: 2px solid #fff;
     color: #fff;
+}
+
+.button-services:hover {
+    color: #000;
+    background: #DEC7A6;
+    border: none;
+}
+
+section {
+    background-color: #000;
+    width: 100vw;
+    height: 100vh;
 }
