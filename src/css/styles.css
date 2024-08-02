@@ -86,7 +86,50 @@ nav ul li {
 }
 
 section {
-    background-color: #000;
+    background: #f8f5ef;
     width: 100vw;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.box-about {
+    width: 70%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-about-text {
+    width: 50%;
+    text-align: left;
+}
+
+.box-about-text h2 {
+    font-size: 48px;
+}
+
+.box-about-text p {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.status-about {
+    display: flex;
+    align-items: end;
+}
+
+.status {
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+    margin-right: 21px;
+}
+
+.imagem-haircut {
+    height: 400px;
 }
