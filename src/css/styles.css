@@ -92,7 +92,7 @@ nav ul li {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 200px;
+    padding-top: 300px;
 }
 
 .box-about {
@@ -133,3 +133,69 @@ nav ul li {
 .imagem-haircut {
     height: 400px;
 }
+
+.section-services {
+    width: 100vw;
+    height: auto;
+    background: #f8f5ef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.title-services {
+    font-size: 48px;
+    margin-top: 140px;
+}
+
+.paragraph-services {
+    width: 500px;
+    text-align: center;
+    font-size: 16px;
+    margin: 34px 0 74px;
+}
+
+.nav-services {
+    width: 800px;
+    background: #fff;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
+    padding: 20px;
+    gap: 80px;
+    margin-bottom: 40px;
+}
+
+.services {
+    width: 300px;
+    height: 150px;
+}
+
+.services img {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.info-services {
+    text-align: left;
+    display: inline-block;
+    position: absolute;
+    width: 250px;
+}
+
+.info-services h3 {
+    font-size: 24px;
+}
+
+.info-services p {
+    font-size: 16px;
+    margin: 10px 0 15px;
+}
+
+.info-services .value {
+    font-size: 24px;
+}
+
